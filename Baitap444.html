@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body{
+    background:white;
+    box-sizing: border-box;
+    width: 100%; 
+   max-height: 5000px ;
+    padding: 10px; 
+    border: 1px solid black;
+    margin-left:35px;  
+    
+            }
+
+.background{
+    background: white;
+}
+.logo img{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -10px;
+        width: 200px;
+        height: 150px;
+        z-index: -1;
+}
+#menu{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:100%;
+    height:30px;
+    padding-top: 50px;
+  margin:-120px;
+  margin-top: -150px;
+  margin-left:-120px;
+  border-top-left-radius: 5px;
+
+  
+} 
+#menu ul li i:hover {
+  background:black;
+}
+#menu li a {
+    
+  
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  
+}
+ 
+
+#menu ul {
+   
+    background:white;
+    list-style-type: none;
+    text-align: center;
+  }
+  #menu ul li{
+   
+    line-height: 35px;
+    
+  }
+ 
+  
+  #menu li {
+   
+  color: #f1f1f1;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin-left:-5px;
+}
+
+#menu li a{
+    
+    text-decoration:none;
+}
+.header1 img {
+margin-left: 245px;
+width: 60%;
+height:300px;
+margin-top:100px;
+
+}
+
+form.example input[type=text]  {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 21%;
+  border: 1px solid white;
+   float: left;
+  width: 30%;
+  background:white;
+  padding-top: 20px;
+}
+form.example button {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  float: left; 
+  width: 3%;  
+  padding: 1px;  
+  background:pink;
+  color: white;
+  font-size: 12px bold;
+  border: 1px  white;
+  border-left: none; 
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background:pink;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.imtems{
+    background: pink;
+    border-radius: 25px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: pink;
+}
+
+
+h3{
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.wrapper {
+  padding-left: 200px;
+}
+.wrapper1{
+    padding-left: 10px;
+}
+
+
+.products ul {
+  display: inline-block;
+}
+
+.products ul .main-product {
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  display: block;
+  float: left;
+  width: 24%;
+}
+
+.products ul .no-margin {
+  margin-right: 0;
+}
+
+.products ul .img-product img {
+    display: grid;
+    column-gap:600px;
+
+   width:80%;
+  height:250px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  
+}
+.products ul .img-product img:hover{
+    width:200px;
+    transform: scale(1.2);   
+  transition: transform 0.2s ease-in-out;
+  opacity: 0.7;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.content-product .content-product-h3 {
+    
+  padding: 10px; 
+  
+  overflow: hidden;
+  color:pink;
+  font-weight: 500x;
+  font-size: 12px;
+  max-height: 50px;
+  min-height: 50px;
+  text-align: center;
+  line-height: 19px;
+  margin-left: -30px;
+}
+
+.content-product .content-product-deltals {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.main-product .content-product .content-product-deltals .price {
+  color:pink;
+  font-weight: 700x;
+  margin-right: 15px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.content-product .content-product-deltals .price .money {
+    vertical-align: middle;
+    margin-left: -30px;
+    padding:25px;
+    
+}
+
+.content-product .content-product-deltals .btn-cart {
+    border: 1px solid pink;
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  background:pink;
+  border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  color:white;
+  font-weight: 500px;
+}
+
+.content-product .content-product-deltals .btn-cart:hover {
+  background:rgb(252, 172, 225);
+}
+
+
+.footer-item {
+  padding: .5rem 2rem;
+  background: #f1df11;
+  display: flex;
+
+}
+
+.footer-item .img-footer {
+  align-items: center;
+  display: flex;
+  
+}
+
+.footer-item .img-footer img {
+  width: 100%;
+  
+}
+
+.footer-item .social-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.footer-item .social-footer li a {
+  color:pink;
+  font-size: 2rem;
+
+}
+
+.footer-item .social-footer li:last-child {
+  margin-left: .5rem;
+}
+.footers{
+    border:3px dotted pink;
+    
+    margin-bottom: -40px;
+    background: rgb(247, 204, 211);
+    margin-left: -200px;
+}
+.footers ul{
+    margin-top: -30px;
+    font-style: italic;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+     padding-top: 70px;
+    list-style: none;
+    margin-left: 30px;
+}   
+.footer2 ul {
+    margin-top: -210px;
+    font-style: italic;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+     padding: top -500px;
+    list-style: none;
+    margin-left: 550px;
+}
+
+
+   </style>
+        <meta charset="UFT-8">
+        <link rel="stylesheet" href="anh.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=divece-width, initial-scale=1.0">
+        <title>Pet Yêu</title>
+        
+    </head>
+    <body>
+        <diV>
+            
+        <header class="container">
+            <div class="background">
+               <form class="example" action="action_page.php">
+               <mark><i><input type="text" placeholder="Tìm kiếm sản phẩm.." name="search"></i></mark>
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+              </div>
+            <div class="logo">
+                <image src="img.221.jpg" alt="">
+                    <div id="menu">
+                        <ul>
+                   <i><li><a class="imtems" href="#">Trang chủ</a></li></i>
+                        <i><li ><a href="#">Thú cưng</a></li></i>
+                       <i> <li><a href="#">Phụ kiện</a> </li></i>
+                        <i><li><a href="#">Dịch vụ</a></li></i>
+                       <i><li><a href="#">Giới Thiệu</a></li></i> 
+                        <i><li><a href="#">Liên hệ</a></li></i>
+                        <i><li><a href="#">Giỏ hàng</a></li></i>
+                    
+                    </ul>
+                </div>
+                <div class="header1">
+                    <img src="pet.png.jpg" alt="" >
+                </div>   
+        </diV> 
+        </header>  
+         <div class="content">
+                <i><h1>Danh mục các sản phẩm</h1></i>
+                <section class="wrapper">
+                    <div class="products">
+                        <ul>
+                            <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.cogi.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3"><i>CORGI LÙN XINH</i>
+                                    
+                                </h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">23.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd"src="img.5575.jpg"alt="" height="-700">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">PHỐC SÓC BÉ XÍU CƯNG XĨU</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">20.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd"src="img.2525.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">SAMOYED TRẮNG TINH XINH YÊU</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">16.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product no-margin">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.2727.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">CHO BOSS YÊU SIÊU XINH</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">23.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.3575.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">MÈO XÁM CHÂN NGẮN TAI CỤP SIÊU YÊU</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">25.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.3237.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">MÈO CHÂN NGẮN TAI CỤP</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">30.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.2233.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">MÈO BA TƯ DỄ THƯƠNG</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">20.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product no-margin">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.3355.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">MÈO ANH LÔNG DÀI</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">85.000.000đ</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li> <li class="main-product">
+                            <div class="img-product">
+                                <img class="img-prd" src="img.2233.jpg" alt="">
+                            </div>
+                            <div class="content-product">
+                                <h3 class="content-product-h3">MÈO BA TƯ DỄ THƯƠNG</h3>
+                                <div class="content-product-deltals">
+                                    <div class="price">
+                                        <span class="money">20.000.000₫</span>
+                                    </div>
+                                    <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                </div>
+                            </div>
+                        </li>
+                        </ul>
+                        <div class="content">
+                        <i><h1 style="text-align: center; margin-left: -220px; color: pink;">Danh Mục Phụ Kiện</h1></i>
+                        <section class="wrapper1">
+                            <div class="products">
+                                <ul>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.5566.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3"><i>BALO PET YÊU HỒNG</i>
+                                            
+                                        </h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">2.000.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd"src="img.7373.jpg"alt="" height="-700">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">LỀU NGỦ CHO THÚ CƯNG</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">6.000.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd"src="img.1021.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">NHÀ NGỦ PET YÊU</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">5.000.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product no-margin">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.200.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">KHAY ĂN CỦA PET</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">500.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.2789.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">VÒNG CỔ BẢO VỆ PET YÊU</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">200.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.546.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">ÁO PHÚ TÀI PET YÊU</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">1.000.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.2233.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">MÈO BA TƯ DỄ THƯƠNG</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">20.000.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product no-margin">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.3355.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">MÈO ANH LÔNG DÀI</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">85.000.000đ</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li> <li class="main-product">
+                                    <div class="img-product">
+                                        <img class="img-prd" src="img.2233.jpg" alt="">
+                                    </div>
+                                    <div class="content-product">
+                                        <h3 class="content-product-h3">MÈO BA TƯ DỄ THƯƠNG</h3>
+                                        <div class="content-product-deltals">
+                                            <div class="price">
+                                                <span class="money">20.000.000₫</span>
+                                            </div>
+                                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                        </div>
+                                    </div>
+                                </li>
+                       </div>
+                    </div>
+                    <footer>
+                        <div class="footers" style="text-decoration: none;" >
+                            
+                            <ul>
+                                <li><i class="fa fa-user-circle" aria-hidden="true"></i>
+                                       Liên Lạc</li>
+                                <li>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    Địa chỉ: KĐT Văn Phú, Quang Trung, Hà Đông</li>
+                
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i> 
+                                    Emai:vanquan26122005@gmail.com</li>
+                                <li><i class="fa fa-mobile" aria-hidden="true"></i>
+                                    Hotline: 0971587205</li>
+                            </ul>
+                        </div>
+                             <div class="footer2">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                    Facebook: https://www.facebook.com/ngovan.quan.96930</li>
+                                <li>
+                                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                                    Zalo:0971587205 </li>
+                
+                                <li><i class="fa fa-instagram" aria-hidden="true"></i>
+                                    Instagram: @nvquan25</li>
+                                
+                            </ul>
+                             </div>
+                    </footer>
+                </section>
+                
+                </div>
+        
+        
+        </div>
+
+        </body>
+        </html>

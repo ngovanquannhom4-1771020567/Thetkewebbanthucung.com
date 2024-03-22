@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+         body{
+     background:white;
+    box-sizing: border-box;
+    width: 100%; 
+   max-height: 5000px ;
+    padding: 10px; 
+    border: 1px solid black;
+    margin-left:35px;  
+    
+            }
+         .logo img{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -10px;
+        width: 200px;
+        height: 150px;
+        z-index: -1;
+}
+#menu{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:100%;
+    height:30px;
+    padding-top: 50px;
+  margin:-150px;
+  margin-top: -170px;
+  margin-left: -20px;
+  border-top-left-radius: 5px;
+
+} 
+
+#menu li a {
+    
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+  
+}
+ 
+
+#menu ul {
+   
+    background:white;
+    list-style-type: none;
+    text-align: center;
+  }
+  #menu ul li{
+   
+    line-height: 35px;
+    
+  }
+#menu ul li i:hover {
+  background:pink;
+  width: 100px;
+  height: 50px;
+}
+ 
+  
+  #menu li {
+   
+  color: #f1f1f1;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin-left:-5px;
+  position: relative;
+  list-style:none;
+
+}
+
+#menu li a{
+    
+    text-decoration:none;
+}
+.header1 img {
+margin-left: 235px;
+width: 60%;
+height:300px;
+margin-top:100px;
+
+}
+
+form.example input[type=text]  {
+    margin-top: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 21%;
+  border: 1px solid white;
+   float: left;
+  width: 30%;
+  background:white;
+  padding-top: 20px;
+}
+form.example button {
+    width: 10px;
+    margin-top: 10px;
+    height: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  float: left; 
+  width: 3%;  
+  padding: 1px;  
+  background:pink;
+  color: white;
+  font-size: 12px bold;
+  border: 1px  white;
+  border-left: none; 
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background:pink;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.imtems{
+    background: pink;
+    border-radius: 25px;
+    text-align: center;
+}
+
+h1{
+    background: pink;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 27px;
+    text-align: center;
+}
+.tt2{
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 27px;
+}
+
+h5{
+    text-align: center;
+}
+.hidden image{
+    text-align: center;
+}
+.footer-item {
+  padding: .5rem 2rem;
+  background: #f1df11;
+  display: flex;
+
+}
+
+.footer-item .img-footer {
+  align-items: center;
+  display: flex;
+  
+}
+
+.footer-item .img-footer img {
+  width: 100%;
+  
+}
+
+.footer-item .social-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.footer-item .social-footer li a {
+  color:pink;
+  font-size: 2rem;
+
+}
+
+.footer-item .social-footer li:last-child {
+  margin-left: .5rem;
+}
+.footers{
+    border:3px dotted pink;
+    
+    margin-bottom: -40px;
+    background: rgb(247, 204, 211);
+    margin-left: -200px;
+}
+.footers ul{
+    margin-top: -30px;
+    font-style: italic;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+     padding-top: 70px;
+    list-style: none;
+    margin-left: 250px;
+}   
+.footer2 ul {
+    margin-top: -100px;
+    font-style: italic;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+     padding: top -500px;
+    list-style: none;
+    margin-left: 550px;
+}
+
+        </style>
+      <title> Danh mục đơn hàng</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=divece-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <diV>
+            
+            <header class="container">
+                <div class="background">
+                   <form class="example" action="action_page.php">
+                   <mark><i><input type="text" placeholder="Tìm kiếm sản phẩm.." name="search"></i></mark>
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  </div>
+                <div class="logo">
+                    <image src="img.221.jpg" alt="">
+                        <div id="menu">
+                            <ul>
+                       <i><li><a class="imtems" href="#">Trang chủ</a></i>
+    
+                            <i><li><a href="#">Thú cưng</a>
+                           <i> <li><a href="#">Phụ kiện</a></i>
+                            <i><li><a href="#">Dịch vụ</a></i>
+                            <i><li><a href="#">Giới Thiệu</a></i> 
+                            <i><li><a href="#">Liên hệ</a></i>
+                            <i><li><a href="#">Giỏ hàng</a></i>
+                        
+                        </ul>
+                    </header>
+                    <div class="header1">
+                        <img src="pet.png.jpg" alt="" >
+                    </div>   
+                        <p>
+                            <h1><i>
+                                I.Giới Thiệu</i>
+                            </h1>
+                            <h5>
+         Lời đầu tiên cho phép Siêu thị thú cưng PET YÊU gửi lời chào đến cộng đồng thành viên hội các bạn yêu thương động vật của yeudongvat nói riêng và các bạn ở những hội khác ở Việt Nam  nói chung .<br>
+
+
+   Siêu thị thú cưng PET YÊU khai trương từ  năm 2015 và đã bắt đầu có thêm nhiều khách hàng mới và doanh thu cũng có sự tăng trưởng . Hy vọng  PET YÊU sẽ giữ được tình trạng kinh doanh này để đảm bảo cho kế hoạch mà mình đang ấp ủ là góp một phần sức nhỏ của mình để nâng cao chất lượng sống cho các bé chó & mèo
+
+   Vì vậy, mình đã quyết định sẽ triển khai kế hoạch phát hành thẻ thanh viên PET YÊU cho các bạn trẻ, sinh viên đã, đang và sẽ có ý định nuôi thêm bé yêu .<br>
+
+
+  PET YÊU mong muốn liên lạc được với chủ hội, để nắm được chính xác danh sách các thành viên, những người thật sự yêu thương các bé, xác nhận và cấp thẻ hội viên ( cấp 1, 2, 3 ) với các mức giảm giá và ưu đãi khác nhau .<br>
+
+
+   Shop vừa thành lập, nguồn tài chính và nguồn lực chưa mạnh, nên chỉ có thể hỗ trợ một phần nhỏ cho cộng đồng đề thỏa cái lòng mong muốn góp sức để giúp các bé có cuộc sống tốt hơn .<br>
+
+
+   Mong nhận được sự hỗ trợ và các ý kiến đóng góp thật tâm từ phía các bạn .<br>
+
+Chúc mọi người và các bé luôn vui, khỏe, trẻ và đẹp . Chúc cộng đồng luôn khỏe để có đủ khả năng chăm sóc các bé tốt<br>
+                            </h1>
+                        <h1 class="tt2">II.Hệ thống chăm sóc thú cưng uy tín PET YÊU </h1>
+                          <h5>Pet Yêu được biết đến là địa chỉ cung cấp dịch vụ chăm sóc thú cưng chuyên nghiệp nhất Hà Nội. Với hệ thống chăm sóc, buôn bán các vật phẩm cần thiết cho thú cưng được trải dài từ Hà Nội, TP. Hồ Chí Minh, Đà Nẵng và Hải Phòng cùng 18 hệ thống cửa hàng chuyên cung cấp đồ dùng, quần áo, thức ăn dinh dưỡng, phụ kiện và các dịch vụ spa hàng đầu Việt Nam.<br>
+ 
+                            POS365 tin rằng, đây là địa chỉ chăm sóc thú cưng mà bạn không nên bỏ qua. Cùng tìm hiểu các dịch vụ spa nổi bật tại Pet Mart:<br> 
+                            
+                            Dịch vụ tắm trị liệu khử mùi hôi 
+                            
+                            Cắt, tỉa lông theo yêu cầu
+                            
+                            Cắt, mài móng
+                            
+                            Massage thư giãn
+                            
+                            Vệ sinh tai
+                            
+                            Vệ sinh tuyến mồ hôi
+                            
+                            Dịch vụ lưu trú
+                         </h5>
+                         <div class="hidden">
+                         <img src="img.288.jpg" alt="" width="800"height="400" style="text-align: center;">
+                        </div>
+                        <footer>
+                            <div class="footers" style="text-decoration: none;" >
+                                
+                                <ul>
+                                    <li><i class="fa fa-user-circle" aria-hidden="true"></i>
+                                           Liên Lạc</li>
+                                    <li>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Địa chỉ: KĐT Văn Phú, Quang Trung, Hà Đông</li>
+                    
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> 
+                                        Emai:vanquan26122005@gmail.com</li>
+                                    <li><i class="fa fa-mobile" aria-hidden="true"></i>
+                                        Hotline: 0971587205</li>
+                                </ul>
+                            </div>
+                                 <div class="footer2">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                        Facebook: https://www.facebook.com/ngovan.quan.96930</li>
+                                    <li>
+                                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                                        Zalo:0971587205 </li>
+                    
+                                    <li><i class="fa fa-instagram" aria-hidden="true"></i>
+                                        Instagram: @nvquan25</li>
+                                    
+                                </ul>
+                                 </div>
+                        </footer>
+                          
+
+                         
+                        </p>
+                        
+                        </div>
+    </body>
+</html>

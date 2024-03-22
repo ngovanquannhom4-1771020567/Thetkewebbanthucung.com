@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+         body{
+     background:white;
+    box-sizing: border-box;
+    width: 100%; 
+   max-height: 5000px ;
+    padding: 10px; 
+    border: 1px solid black;
+    margin-left:35px;  
+    
+            }
+         .logo img{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -10px;
+        width: 200px;
+        height: 150px;
+        z-index: -1;
+}
+#menu{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:100%;
+    height:30px;
+    padding-top: 50px;
+  margin:-150px;
+  margin-top: -170px;
+  margin-left: -20px;
+  border-top-left-radius: 5px;
+
+} 
+
+#menu li a {
+    
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+  
+}
+ 
+
+#menu ul {
+   
+    background:white;
+    list-style-type: none;
+    text-align: center;
+  }
+  #menu ul li{
+   
+    line-height: 35px;
+    
+  }
+#menu ul li i:hover {
+  background:pink;
+  width: 100px;
+  height: 50px;
+}
+ 
+  
+  #menu li {
+   
+  color: #f1f1f1;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin-left:-5px;
+  position: relative;
+  list-style:none;
+
+}
+
+#menu li a{
+    
+    text-decoration:none;
+}
+.header1 img {
+margin-left: 235px;
+width: 60%;
+height:300px;
+margin-top:100px;
+
+}
+
+form.example input[type=text]  {
+    margin-top: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 21%;
+  border: 1px solid white;
+   float: left;
+  width: 30%;
+  background:white;
+  padding-top: 20px;
+}
+form.example button {
+    width: 10px;
+    margin-top: 10px;
+    height: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  float: left; 
+  width: 3%;  
+  padding: 1px;  
+  background:pink;
+  color: white;
+  font-size: 12px bold;
+  border: 1px  white;
+  border-left: none; 
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background:pink;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.imtems{
+    background: pink;
+    border-radius: 25px;
+    text-align: center;
+}
+
+h1{
+    background: pink;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 27px;
+    text-align: center;
+}
+.tt2{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 27px;
+}
+
+.hidden image{
+    text-align: center;
+}
+.footer-item {
+  padding: .5rem 2rem;
+  background: #f1df11;
+  display: flex;
+
+}
+
+.footer-item .img-footer {
+  align-items: center;
+  display: flex;
+  
+}
+
+.footer-item .img-footer img {
+  width: 100%;
+  
+}
+
+.footer-item .social-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.footer-item .social-footer li a {
+  color:pink;
+  font-size: 2rem;
+
+}
+
+.footer-item .social-footer li:last-child {
+  margin-left: .5rem;
+}
+.footers{
+    border:3px dotted pink;
+    
+    margin-bottom: -40px;
+    background: rgb(247, 204, 211);
+    margin-left: -200px;
+    height: 100px;
+}
+.footers ul{
+    margin-top: -30px;
+    font-style: italic;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+     padding-top: 70px;
+    list-style: none;
+    margin-left: 250px;
+}   
+.footer2 ul {
+    margin-top: -100px;
+    font-style: italic;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+     padding: top -500px;
+    list-style: none;
+    margin-left: 550px;
+}
+.tt3{
+    margin-top:50px;
+}
+        </style>
+      <title> Danh mục đơn hàng</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=divece-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <diV>
+            
+            <header class="container">
+                <div class="background">
+                   <form class="example" action="action_page.php">
+                   <mark><i><input type="text" placeholder="Tìm kiếm sản phẩm.." name="search"></i></mark>
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  </div>
+                <div class="logo">
+                    <image src="img.221.jpg" alt="">
+                        <div id="menu">
+                            <ul>
+                       <i><li><a class="imtems" href="#">Trang chủ</a></i>
+    
+                            <i><li><a href="#">Thú cưng</a>
+                           <i> <li><a href="#">Phụ kiện</a></i>
+                            <i><li><a href="#">Dịch vụ</a></i>
+                            <i><li><a href="#">Giới Thiệu</a></i> 
+                            <i><li><a href="#">Liên hệ</a></i>
+                            <i><li><a href="#">Giỏ hàng</a></i>
+                        
+                        </ul>
+                    </header>
+                    <div class="header1">
+                        <img src="pet.png.jpg" alt="" >
+                    </div>   
+                        <p>
+                            <h1><i>
+                                I.Dịch Vụ</i>
+                            </h1>
+                            
+                                Dịch vụ tắm spa cho chó mèo PET YÊU với nhiều chi nhánh cửa hàng tại Hà Nội, TP.HCM, Đà Nẵng và Hải Phòng tại đây cung cấp phương pháp chăm sóc thú cưng toàn diện từ A đến Z.<br>
+
+                                Trọn gói bao gồm: tắm, vắt tuyến hôi, sấy khô, chải lông rối, nhổ lông tai, vệ sinh tai, cắt mài móng chân, cạo lông theo yêu cầu. Tất cả đều với với mong muốn mang tới cho thú cưng của bạn một cuộc sống khỏe mạnh và hạnh phúc nhất.<br>
+                                
+                                Với đội ngũ nhân viên giàu kinh nghiệm, kiến thức chuyên sâu sẽ tư vấn và cung cấp cho bạn những gói dịch vụ tắm spa cho chó mèo chất lượng nhất mà bạn không thể tự làm được tại nhà. Những chú cún và mèo cưng sẽ nhanh chóng được tút lại nhan sắc trở lên xinh đẹp và đáng yêu hơn.<br>
+                            </h1>
+                        <h1 class="tt2">II.3 Điều luôn cam kết với khách hàng </h1>
+                          
+                           <h5> 1. HẾT MÌNH VÌ CÔNG VIỆC</h5><br>
+                            Chúng tôi làm việc hết mình với chữ tâm, trách nhiệm và sự yêu nghề. Thú cưng khỏe mạnh là niềm hạnh phúc của chúng tôi.<br>
+                            <h5>2.GIÁ DỊCH VỤ RẺ NHẤT</h5><br>
+                            Chúng tôi cam kết đưa ra mức giá ưu đãi nhất trên thị trường để tất cả thú cưng đều có cơ hội được trải nghiệm dịch vụ của chúng tôi.<br>
+                           <h5> 3.CHẤT LƯỢNG HÀNG ĐẦU</h5><br>
+                            Chúng tôi không ngừng nâng cao phát triển trình độ kỹ năng của nhân sự để phục vụ thú cưng đem đến kết quả tốt nhất.<br>
+                         
+                         <div class="hidden">
+                         <img src="" alt="" width="800"height="400" style="text-align: center;">
+                        </div>
+                        <h1>VÌ SAO NÊN SPA CHO CHÓ MÈO ĐỊNH KỲ VÀ THƯỜNG XUYÊN?</h1>
+                    
+                            Còn niềm vui và hạnh phúc nào hơn khi những người bạn bốn chân được khoác trên mình bộ lông mềm mượt, thơm lâu và sạch sẽ.<br>
+
+Mỗi người bạn nhỏ đều có những thói quen và sở thích khác nhau. Chính vì vậy, Pet Mart luôn có những sự lựa chọn dịch vụ spa cho chó mèo phù hợp nhất với những dòng sản phẩm sữa tắm trị liệu đảm bảo an toàn cho sức khỏe của thú cưng.<br>
+
+Với tình yêu thương với thú cưng vô bờ bến, chúng tôi chắc chắn sẽ mang tới cho thú cưng và khách hàng những trải nghiệm thoải mái nhất tại Pet Yêu.<br>
+                        
+                        <h1>Bảng Giá Dịch Vụ</h1>
+                        <img src="img.2231.jpg" alt="">
+                        <img src="img.2213.jpg" alt="">
+                        <h1 class="tt3">LƯU Ý KHI SỬ DỤNG DỊCH VỤ PET BATHING</h1>
+                        Pet Yêu không tiếp nhận vật nuôi đang mang thai, đang điều trị bệnh, mới phẫu thuật, có tiểu sử bệnh hen, co giật hoặc các bệnh lý khác khiến thú nuôi không có khả năng tự chủ.<br>
+
+Để đảm bảo an toàn cho sức khỏe khi đưa đến làm dịch vụ spa thú cưng: Không để thú cưng quá đói, hoặc ăn quá no và chạy nhảy quá sức trước khi đến cửa hàng. Có kế hoạch che nắng mưa trước khi đến và sau khi về. Nếu thú cưng có những biểu hiện bất thường về sức khỏe xin vui lòng liên hệ Pet Yêu để được trợ giúp.<br>
+
+Vui lòng kiểm tra kỹ thú cưng khi đến đón thú cưng sau khi làm dịch vụ. Quy trình này đảm bảo nhân viên của Pet Mart đã thực hiện đúng yêu cầu và bạn hài lòng với chất lượng dịch vụ.<br>
+  
+</h1>
+                        <footer>
+                            <div class="footers" style="text-decoration: none;" >
+                                
+                                <ul>
+                                    <li><i class="fa fa-user-circle" aria-hidden="true"></i>
+                                           Liên Lạc</li>
+                                    <li>
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        Địa chỉ: KĐT Văn Phú, Quang Trung, Hà Đông</li>
+                    
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> 
+                                        Emai:vanquan26122005@gmail.com</li>
+                                    <li><i class="fa fa-mobile" aria-hidden="true"></i>
+                                        Hotline: 0971587205</li>
+                                </ul>
+                            </div>
+                                 <div class="footer2">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                        Facebook: https://www.facebook.com/ngovan.quan.96930</li>
+                                    <li>
+                                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                                        Zalo:0971587205 </li>
+                    
+                                    <li><i class="fa fa-instagram" aria-hidden="true"></i>
+                                        Instagram: @nvquan25</li>
+                                    
+                                </ul>
+                                 </div>
+                        </footer>
+                          
+
+                         
+                        </p>
+                        
+                        </div>
+    </body>
+</html>

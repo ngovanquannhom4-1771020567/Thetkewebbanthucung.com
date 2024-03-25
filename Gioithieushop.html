@@ -5,7 +5,7 @@
          body{
      background:white;
     box-sizing: border-box;
-    width: 95%; 
+    width: 100%; 
    max-height: 5000px ;
     padding: 10px; 
     border: 1px solid black;
@@ -13,10 +13,9 @@
     
             }
          .logo img{
-            margin-left: -100px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    margin-top: -50px;
+    margin-top: -10px;
         width: 200px;
         height: 150px;
         z-index: -1;
@@ -25,10 +24,10 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width:100%;
     height:30px;
-    padding-top: 70px;
+    padding-top: 50px;
   margin:-150px;
-  margin-top: -110px;
-  margin-left: 80px;
+  margin-top: -170px;
+  margin-left: -20px;
   border-top-left-radius: 5px;
 
 } 
@@ -139,10 +138,13 @@ h1{
 }
 .tt2{
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: -10px;
     font-size: 27px;
 }
 
+h5{
+    
+}
 .hidden image{
     text-align: center;
 }
@@ -180,18 +182,12 @@ h1{
 .footer-item .social-footer li:last-child {
   margin-left: .5rem;
 }
-footer{
-  padding-left: 100px;
-  width: 100%;
-}
-.footers{ 
-  
-    border:2px dotted pink;
+.footers{
+    border:3px dotted pink;
+    
     margin-bottom: -40px;
     background: rgb(247, 204, 211);
     margin-left: -200px;
-    height: 50%;
-    width: 100%;
 }
 .footers ul{
     margin-top: -30px;
@@ -211,22 +207,23 @@ footer{
     list-style: none;
     margin-left: 550px;
 }
-.tt3{
-    margin-top:50px;
-}
+
 #menu2{
     width:60%;
     height:50%;
+
 }
 #menu2 ul{
     display:flex;
 }
 #menu2 ul li:hover>a{
-    background: red;
+    background:white;
     opacity: .7;
     color: yellow;
+    padding-left: 1000px;
 }
 #menu2 li ul{
+
     display: none;
     min-width: 350px;
     position: absolute;
@@ -234,8 +231,8 @@ footer{
 #menu2 li>ul li{
     width: 60%;
     border: none;
-    border-bottom: 2px solid #ccc;
-    background: rgb(245, 193, 202);
+    border-bottom: 1px solid rgb(165, 164, 164);
+    background:rgb(252, 200, 209);
     display: block;
 }
 #menu2 ul li{
@@ -275,9 +272,7 @@ footer{
     margin-left: 352px;
     margin-top: -50px;
 }
-header, menu{
-    margin: 5px 10%;
-}
+
         </style>
       <title> Danh mục đơn hàng</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -287,6 +282,7 @@ header, menu{
     </head>
     <body>
         <diV>
+            
             <header class="container">
                 <div class="background">
                    <form class="example" action="action_page.php">
@@ -297,82 +293,84 @@ header, menu{
                 <div class="logo">
                     <image src="img.221.jpg" alt="">
                         <div id="menu">
-                          <div id="menu">
-                            <ul id="menu2">
-                       <i><li><a class="imtems" href="#">Trang chủ</a></i>
-    
-                            
-                                <i><li><a href="http://127.0.0.1:5500/Gioithieushop.html">Giới Thiệu</a></i> 
-                           <i> <li>
-                            <a href="http://127.0.0.1:5500/phukien.html">Sản Phẩm</a></i>
-                               <ul>
-                                <li><a href="#" title="Chó và Mèo"> Thú Cưng</a></li>
-                                <li><a href="#" title="Quần áo">Quần áo</a></li>
-                                <li><a href="#" title="Homd">Nhà cho pet</a></li>
-                                <li><a href="#" title="Food">Food</a></li>
-                               </ul>
-                            
-                        </li>
-    
-                            <i><li><a href="http://127.0.0.1:5500/Dichvucuapetyeu.html">Dịch Vụ</a></i>
-                            <ul id="menu2"> 
-                            <li><a href="#" title="Cắt, tỉa">Cắt, tỉa</a></li>
-                                <li><a href="#" title="Massage">Massage</a></li>
-                                <li><a href="#" title="Tắm">Tắm</a></li>
-                            </ul></li>
-                            
-                            <i><li><a href="#">Liên hệ</a></i></li>
-                            <i><li><a href="#">Giỏ hàng</a></i></li>
-                                <i><li><a href="">Đăng nhập</a></i></li>
-                
+                              <ul id="menu2">
+                                <i><li><a class="imtems" href="#">Trang chủ</a></i>
+             
+                                     
+                                         <i><li><a href="http://127.0.0.1:5500/Gioithieushop.html">Giới Thiệu</a></i> 
+                                    <i> <li>
+                                     <a href="http://127.0.0.1:5500/phukien.html">Sản Phẩm</a></i>
+                                        <ul id="menu2">
+                                         <li><a href="#" title="Chó và Mèo">Chó Và Mèo</a></li>
+                                         <li><a href="#" title="Phụ Kiện">Phụ Kiện</a></li>
+                                         <li><a href="#" title="Đồ Ăn">Đồ ăn</a></li>
+                                        </ul>
+                                     
+                                 </li>
+             
+                                     <i><li><a href="http://127.0.0.1:5500/Dichvucuapetyeu.html">Dịch Vụ</a></i>
+                                     <ul id="menu2"> 
+                                     <li><a href="#" title="Cắt, tỉa">Cắt, tỉa</a></li>
+                                         <li><a href="#" title="Massage">Massage</a></li>
+                                         <li><a href="#" title="Tắm">Tắm</a></li>
+                                     </ul></li>
+                                     
+                                     <i><li><a href="#">Liên hệ</a></i></li>
+                                     <i><li><a href="#">Giỏ hàng</a></i></li>
+                                         <i><li><a href="http://127.0.0.1:5500/%C4%91angnhappetyeu.html">Đăng nhập</a></i></li>
+                         
+                                 </ul>
+                        
                         </ul>
-                    </div>
                     </header>
                     <div class="header1">
                         <img src="pet.png.jpg" alt="" >
                     </div>   
                         <p>
                             <h1><i>
-                                I.Dịch Vụ</i>
+                                I.Giới Thiệu</i>
                             </h1>
+                            <h5>
+         Lời đầu tiên cho phép Siêu thị thú cưng PET YÊU gửi lời chào đến cộng đồng thành viên hội các bạn yêu thương động vật của yeudongvat nói riêng và các bạn ở những hội khác ở Việt Nam  nói chung .<br>
+
+
+   Siêu thị thú cưng PET YÊU khai trương từ  năm 2015 và đã bắt đầu có thêm nhiều khách hàng mới và doanh thu cũng có sự tăng trưởng . Hy vọng  PET YÊU sẽ giữ được tình trạng kinh doanh này để đảm bảo cho kế hoạch mà mình đang ấp ủ là góp một phần sức nhỏ của mình để nâng cao chất lượng sống cho các bé chó & mèo
+
+   Vì vậy, mình đã quyết định sẽ triển khai kế hoạch phát hành thẻ thanh viên PET YÊU cho các bạn trẻ, sinh viên đã, đang và sẽ có ý định nuôi thêm bé yêu .<br>
+
+
+  PET YÊU mong muốn liên lạc được với chủ hội, để nắm được chính xác danh sách các thành viên, những người thật sự yêu thương các bé, xác nhận và cấp thẻ hội viên ( cấp 1, 2, 3 ) với các mức giảm giá và ưu đãi khác nhau .<br>
+
+
+   Shop vừa thành lập, nguồn tài chính và nguồn lực chưa mạnh, nên chỉ có thể hỗ trợ một phần nhỏ cho cộng đồng đề thỏa cái lòng mong muốn góp sức để giúp các bé có cuộc sống tốt hơn .<br>
+
+
+   Mong nhận được sự hỗ trợ và các ý kiến đóng góp thật tâm từ phía các bạn .<br>
+
+Chúc mọi người và các bé luôn vui, khỏe, trẻ và đẹp . Chúc cộng đồng luôn khỏe để có đủ khả năng chăm sóc các bé tốt<br>
+                            </h1>
+                        <h1 class="tt2">II.Hệ thống chăm sóc thú cưng uy tín PET YÊU </h1>
+                          <h5>Pet Yêu được biết đến là địa chỉ cung cấp dịch vụ chăm sóc thú cưng chuyên nghiệp nhất Hà Nội. Với hệ thống chăm sóc, buôn bán các vật phẩm cần thiết cho thú cưng được trải dài từ Hà Nội, TP. Hồ Chí Minh, Đà Nẵng và Hải Phòng cùng 18 hệ thống cửa hàng chuyên cung cấp đồ dùng, quần áo, thức ăn dinh dưỡng, phụ kiện và các dịch vụ spa hàng đầu Việt Nam.<br>
+ 
+                            POS365 tin rằng, đây là địa chỉ chăm sóc thú cưng mà bạn không nên bỏ qua. Cùng tìm hiểu các dịch vụ spa nổi bật tại Pet Mart:<br> 
                             
-                                Dịch vụ tắm spa cho chó mèo PET YÊU với nhiều chi nhánh cửa hàng tại Hà Nội, TP.HCM, Đà Nẵng và Hải Phòng tại đây cung cấp phương pháp chăm sóc thú cưng toàn diện từ A đến Z.<br>
-
-                                Trọn gói bao gồm: tắm, vắt tuyến hôi, sấy khô, chải lông rối, nhổ lông tai, vệ sinh tai, cắt mài móng chân, cạo lông theo yêu cầu. Tất cả đều với với mong muốn mang tới cho thú cưng của bạn một cuộc sống khỏe mạnh và hạnh phúc nhất.<br>
-                                
-                                Với đội ngũ nhân viên giàu kinh nghiệm, kiến thức chuyên sâu sẽ tư vấn và cung cấp cho bạn những gói dịch vụ tắm spa cho chó mèo chất lượng nhất mà bạn không thể tự làm được tại nhà. Những chú cún và mèo cưng sẽ nhanh chóng được tút lại nhan sắc trở lên xinh đẹp và đáng yêu hơn.<br>
-                            </h1>
-                        <h1 class="tt2">II.3 Điều luôn cam kết với khách hàng </h1>
-                          
-                           <h5> 1. HẾT MÌNH VÌ CÔNG VIỆC</h5><br>
-                            Chúng tôi làm việc hết mình với chữ tâm, trách nhiệm và sự yêu nghề. Thú cưng khỏe mạnh là niềm hạnh phúc của chúng tôi.<br>
-                            <h5>2.GIÁ DỊCH VỤ RẺ NHẤT</h5><br>
-                            Chúng tôi cam kết đưa ra mức giá ưu đãi nhất trên thị trường để tất cả thú cưng đều có cơ hội được trải nghiệm dịch vụ của chúng tôi.<br>
-                           <h5> 3.CHẤT LƯỢNG HÀNG ĐẦU</h5><br>
-                            Chúng tôi không ngừng nâng cao phát triển trình độ kỹ năng của nhân sự để phục vụ thú cưng đem đến kết quả tốt nhất.<br>
-                         
+                            Dịch vụ tắm trị liệu khử mùi hôi 
+                            
+                            Cắt, tỉa lông theo yêu cầu
+                            
+                            Cắt, mài móng
+                            
+                            Massage thư giãn
+                            
+                            Vệ sinh tai
+                            
+                            Vệ sinh tuyến mồ hôi
+                            
+                            Dịch vụ lưu trú
+                         </h5>
                          <div class="hidden">
-                         <img src="" alt="" width="800"height="400" style="text-align: center;">
+                         <img src="img.288.jpg" alt="" width="800"height="400" style="text-align: center;">
                         </div>
-                        <h1>VÌ SAO NÊN SPA CHO CHÓ MÈO ĐỊNH KỲ VÀ THƯỜNG XUYÊN?</h1>
-                    
-                            Còn niềm vui và hạnh phúc nào hơn khi những người bạn bốn chân được khoác trên mình bộ lông mềm mượt, thơm lâu và sạch sẽ.<br>
-
-Mỗi người bạn nhỏ đều có những thói quen và sở thích khác nhau. Chính vì vậy, Pet Mart luôn có những sự lựa chọn dịch vụ spa cho chó mèo phù hợp nhất với những dòng sản phẩm sữa tắm trị liệu đảm bảo an toàn cho sức khỏe của thú cưng.<br>
-
-Với tình yêu thương với thú cưng vô bờ bến, chúng tôi chắc chắn sẽ mang tới cho thú cưng và khách hàng những trải nghiệm thoải mái nhất tại Pet Yêu.<br>
-                        
-                        <h1>Bảng Giá Dịch Vụ</h1>
-                        <img src="img.2231.jpg" alt="">
-                        <img src="img.2213.jpg" alt="">
-                        <h1 class="tt3">LƯU Ý KHI SỬ DỤNG DỊCH VỤ PET BATHING</h1>
-                        Pet Yêu không tiếp nhận vật nuôi đang mang thai, đang điều trị bệnh, mới phẫu thuật, có tiểu sử bệnh hen, co giật hoặc các bệnh lý khác khiến thú nuôi không có khả năng tự chủ.<br>
-
-Để đảm bảo an toàn cho sức khỏe khi đưa đến làm dịch vụ spa thú cưng: Không để thú cưng quá đói, hoặc ăn quá no và chạy nhảy quá sức trước khi đến cửa hàng. Có kế hoạch che nắng mưa trước khi đến và sau khi về. Nếu thú cưng có những biểu hiện bất thường về sức khỏe xin vui lòng liên hệ Pet Yêu để được trợ giúp.<br>
-
-Vui lòng kiểm tra kỹ thú cưng khi đến đón thú cưng sau khi làm dịch vụ. Quy trình này đảm bảo nhân viên của Pet Mart đã thực hiện đúng yêu cầu và bạn hài lòng với chất lượng dịch vụ.<br>
-  
-
                         <footer>
                             <div class="footers" style="text-decoration: none;" >
                                 
@@ -404,7 +402,11 @@ Vui lòng kiểm tra kỹ thú cưng khi đến đón thú cưng sau khi làm d�
                                 </ul>
                                  </div>
                         </footer>
+                          
+
+                         
+                        </p>
                         
-                        </div> 
+                        </div>
     </body>
 </html>

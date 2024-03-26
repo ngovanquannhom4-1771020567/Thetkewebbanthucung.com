@@ -6,7 +6,8 @@
     background:white;
     box-sizing: border-box;
     width: 100%; 
-   max-height: 5000px ;
+    
+   max-height: 50000px ;
     padding: 10px; 
     border: 1px solid black;
     margin-left:35px;  
@@ -29,23 +30,19 @@
     width:100%;
     height:30px;
     padding-top: 50px;
-  margin:-120px;
-  margin-top: -150px;
-  margin-left:-120px;
+  margin:-150px;
+  margin-top: -170px;
+  margin-left: 125px;
   border-top-left-radius: 5px;
 
-  
 } 
-#menu ul li i:hover {
-  background:black;
-}
+
 #menu li a {
     
-  
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  display: block;
+  display: inline-block;
   
 }
  
@@ -61,6 +58,11 @@
     line-height: 35px;
     
   }
+#menu ul li i:hover {
+  background:pink;
+  width: 100px;
+  height: 50px;
+}
  
   
   #menu li {
@@ -71,6 +73,9 @@
   height: 40px;
   line-height: 40px;
   margin-left:-5px;
+  position: relative;
+  list-style:none;
+
 }
 
 #menu li a{
@@ -125,6 +130,7 @@ form.example::after {
     text-align: center;
 }
 h1{
+    background: rgb(247, 134, 160);
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
@@ -189,7 +195,7 @@ h3{
   padding: 10px; 
   
   overflow: hidden;
-  color:pink;
+  color:rgb(197, 47, 72);
   font-weight: 500x;
   font-size: 12px;
   max-height: 50px;
@@ -206,9 +212,10 @@ h3{
 }
 
 .main-product .content-product .content-product-deltals .price {
-  color:pink;
+  color:rgb(197, 47, 72);;
   font-weight: 700x;
   margin-right: 15px;
+  margin-top:-50px;
   vertical-align: middle;
   font-size: 20px;
 }
@@ -221,6 +228,7 @@ h3{
 }
 
 .content-product .content-product-deltals .btn-cart {
+    margin-top: -50px;
     border: 1px solid pink;
     font-size: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
@@ -235,41 +243,10 @@ h3{
   background:rgb(252, 172, 225);
 }
 
-
-.footer-item {
-  padding: .5rem 2rem;
-  background: #f1df11;
-  display: flex;
-
+footer{
+    height: 170px;
 }
 
-.footer-item .img-footer {
-  align-items: center;
-  display: flex;
-  
-}
-
-.footer-item .img-footer img {
-  width: 100%;
-  
-}
-
-.footer-item .social-footer {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.footer-item .social-footer li a {
-  color:pink;
-  font-size: 2rem;
-
-}
-
-.footer-item .social-footer li:last-child {
-  margin-left: .5rem;
-}
 .footers{
     border:3px dotted pink;
     
@@ -296,6 +273,70 @@ h3{
     margin-left: 550px;
 }
 
+#menu2{
+    width:60%;
+    height:50%;
+
+}
+#menu2 ul{
+    display:flex;
+}
+#menu2 ul li:hover>a{
+    background:white;
+    opacity: .7;
+    color: yellow;
+    padding-left: 1000px;
+}
+#menu2 li ul{
+
+    display: none;
+    min-width: 350px;
+    position: absolute;
+}
+#menu2 li>ul li{
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid rgb(165, 164, 164);
+    background:rgb(252, 200, 209);
+    display: block;
+}
+#menu2 ul li{
+    list-style: none; 
+    border-right: 1px solid #ccc;
+    border-left:1px solid #333;
+}
+#menu2 ul li:first-child {
+    border-left: none; 
+}
+#menu2 li:hover > ul{
+    display:  block;
+}
+#menu2 li>ul li:last-child a{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#menu2 li>ul li:first-child a{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+#menu2 ul li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 50px;
+    color: #f1f2f3;
+    text-decoration: none;
+}
+#menu2> ul li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 50px;
+    color: #f1f2f3;
+    text-decoration: none;
+}
+#menu2 > ul li > ul li >ul{
+    margin-left: 352px;
+    margin-top: -50px;
+}
 
    </style>
         <meta charset="UFT-8">
@@ -319,34 +360,63 @@ h3{
             <div class="logo">
                 <image src="img.221.jpg" alt="">
                     <div id="menu">
-                        <ul>
-                   <i><li><a class="imtems" href="#">Trang chủ</a></li></i>
-                        <i><li ><a href="#">Thú cưng</a></li></i>
-                       <i> <li><a href="http://127.0.0.1:5500/phukien.html">Phụ kiện</a> </li></i>
-                        <i><li><a href="http://127.0.0.1:5500/Dichvucuapetyeu.html">Dịch vụ</a></li></i>
-                       <i><li><a href="http://127.0.0.1:5500/sanphamcuapetyeu.html">Giới Thiệu</a></li></i> 
-                        <i><li><a href="#">Liên hệ</a></li></i>
-                        <i><li><a href="#">Giỏ hàng</a></li></i>
-                            <i><li><a href="http://127.0.0.1:5500/%C4%91angnhappetyeu.html">Đăng nhập</a></i>
-                    
+                        <ul id="menu2">
+                   <i><li><a class="imtems" href="#">Trang chủ</a></i>
+
+                        
+                            <i><li><a href="http://127.0.0.1:5500/Gioithieushop.html">Giới Thiệu</a></i> 
+                       <i> <li>
+                        <a href="http://127.0.0.1:5500/phukien.html">Sản Phẩm</a></i>
+                           <ul id="menu2">
+                            <li><a href="#" title="Chó và Mèo">Chó Và Mèo</a></li>
+                            <li><a href="#" title="Phụ Kiện">Phụ Kiện</a></li>
+                            <li><a href="#" title="Đồ Ăn">Đồ ăn</a></li>
+                           </ul>
+                        
+                    </li>
+
+                        <i><li><a href="http://127.0.0.1:5500/Dichvucuapetyeu.html">Dịch Vụ</a></i>
+                        <ul id="menu2"> 
+                        <li><a href="#" title="Cắt, tỉa">Cắt, tỉa</a></li>
+                            <li><a href="#" title="Massage">Massage</a></li>
+                            <li><a href="#" title="Tắm">Tắm</a></li>
+                        </ul></li>
+                        
+                        <i><li><a href="#">Liên hệ</a>
+                            <ul id="menu2"> 
+                                <li><a href="https://zalo.me/0971587205" title="zalo">0971587205></li>
+                                   
+                                </ul>
+                        </li></i>
+                        <i><li><a href="#">Giỏ hàng</a>
+                            <ul id="menu2"> 
+                                <li><a href="#" title="Xem chi tiet don hang">Xem chi tiết đơn hàng</a></li>
+                                    <li><a href="#" title="Them moi gio hang">Thêm mớI giỏ hàng</a></li>
+                                
+                                </ul>
+                        </li>
+                            <i><li><a href="http://127.0.0.1:5500/%C4%91angnhappetyeu.html">Đăng nhập</a></i></li>
+            
                     </ul>
                 </div>
                 <div class="header1">
                     <img src="pet.png.jpg" alt="" >
                 </div>   
-        </diV> 
+        </diV>  <hr  width="100%" align="center ">
         </header>  
          <div class="content">
-                <i><h1>Danh mục các sản phẩm</h1></i>
+                <i><h1><b>Danh mục các sản phẩm</h1></i>
                 <section class="wrapper">
                     <div class="products">
                         <ul>
                             <li class="main-product">
                                 <div class="img-product">
-                                    <img class="img-prd" src="img.cogi.jpg" alt="">
+                                    <img class="img-prd" src="img.cogi.jpg" alt="" >
+                                    
                                 </div>
                                 <div class="content-product">
-                                    <h3 class="content-product-h3"><i>CORGI LÙN XINH</i>
+                                    
+                                    <h3 class="content-product-h3"><i><a href="http://127.0.0.1:5500/xemchitietd%C6%A1nhang.html" style="text-decoration: none;color:rgb(197, 47, 72);;"></i>CORGI LÙN XINH</a></i>
                                     
                                 </h3>
                                     <div class="content-product-deltals">
@@ -358,6 +428,108 @@ h3{
                                 </div>
                             </li>
                             <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd"src="img.5575.jpg"alt="" height="-700">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3"><a href="http://127.0.0.1:5500/phukien.html" style="text-decoration: none; color:rgb(197, 47, 72)">PHỐC SÓC BÉ XÍU CƯNG XĨU</a></h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">20.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd"src="img.2525.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">SAMOYED TRẮNG TINH XINH YÊU</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">16.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product no-margin">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.2727.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">CHO BOSS YÊU SIÊU XINH</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">23.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.3575.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">MÈO XÁM CHÂN NGẮN TAI CỤP SIÊU YÊU</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">25.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.3237.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">MÈO CHÂN NGẮN TAI CỤP</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">30.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.2233.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">MÈO BA TƯ DỄ THƯƠNG</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">20.000.000₫</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="main-product no-margin">
+                                <div class="img-product">
+                                    <img class="img-prd" src="img.3355.jpg" alt="">
+                                </div>
+                                <div class="content-product">
+                                    <h3 class="content-product-h3">MÈO ANH LÔNG DÀI</h3>
+                                    <div class="content-product-deltals">
+                                        <div class="price">
+                                            <span class="money">85.000.000đ</span>
+                                        </div>
+                                        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <br> 
+
+                     <li class="main-product">
                                 <div class="img-product">
                                     <img class="img-prd"src="img.5575.jpg"alt="" height="-700">
                                 </div>
@@ -454,21 +626,9 @@ h3{
                                         <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
                                     </div>
                                 </div>
-                            </li> <li class="main-product">
-                            <div class="img-product">
-                                <img class="img-prd" src="img.2233.jpg" alt="">
-                            </div>
-                            <div class="content-product">
-                                <h3 class="content-product-h3">MÈO BA TƯ DỄ THƯƠNG</h3>
-                                <div class="content-product-deltals">
-                                    <div class="price">
-                                        <span class="money">20.000.000₫</span>
-                                    </div>
-                                    <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
-                                </div>
-                            </div>
-                        </li>
+                            </li> 
                         </ul>
+                       
                         <div class="content">
                         <i><h1 style="text-align: center; margin-left: -220px; color: pink;">Danh Mục Phụ Kiện</h1></i>
                         <section class="wrapper1">
@@ -562,13 +722,13 @@ h3{
                                     </li>
                                     <li class="main-product">
                                         <div class="img-product">
-                                            <img class="img-prd" src="img.2233.jpg" alt="">
+                                            <img class="img-prd" src="img.2254.jpg" alt="">
                                         </div>
                                         <div class="content-product">
-                                            <h3 class="content-product-h3">MÈO BA TƯ DỄ THƯƠNG</h3>
+                                            <h3 class="content-product-h3">Dây dắt chó mèo đi dạo tự cuốn</h3>
                                             <div class="content-product-deltals">
                                                 <div class="price">
-                                                    <span class="money">20.000.000₫</span>
+                                                    <span class="money">300.000₫</span>
                                                 </div>
                                                 <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
                                             </div>
@@ -576,26 +736,162 @@ h3{
                                     </li>
                                     <li class="main-product no-margin">
                                         <div class="img-product">
-                                            <img class="img-prd" src="img.3355.jpg" alt="">
+                                            <img class="img-prd" src="img.3324.jpg" alt="">
                                         </div>
                                         <div class="content-product">
-                                            <h3 class="content-product-h3">MÈO ANH LÔNG DÀI</h3>
+                                            <h3 class="content-product-h3">Mũ PET YÊU</h3>
                                             <div class="content-product-deltals">
                                                 <div class="price">
-                                                    <span class="money">85.000.000đ</span>
+                                                    <span class="money">75.000đ</span>
                                                 </div>
                                                 <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
                                             </div>
                                         </div>
                                     </li> <li class="main-product">
                                     <div class="img-product">
-                                        <img class="img-prd" src="img.2233.jpg" alt="">
+                                        <img class="img-prd" src="img.33543.jpg" alt="">
                                     </div>
                                     <div class="content-product">
-                                        <h3 class="content-product-h3">MÈO BA TƯ DỄ THƯƠNG</h3>
+                                        <h3 class="content-product-h3">Combo Yếm cho chó mèo kèm dây dắt</h3>
                                         <div class="content-product-deltals">
                                             <div class="price">
-                                                <span class="money">20.000.000₫</span>
+                                                <span class="money">750.000₫</span>
+                                            </div>
+                                            <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                        </div>
+                                    </div>
+                                </li>
+                       </div>
+                    </div>
+                    <div class="content">
+                        <i><h1 style="text-align: center; margin-left: -220px; color: pink;">Danh Mục đồ ăn cho PET</h1></i>
+                        <section class="wrapper1">
+                            <div class="products">
+                                <ul>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.2212.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3"><i>DeFine Thức ăn chó trưởng thành 2kg (da khỏe&lông mượt)</i>
+                                            
+                                        </h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">350.000đ</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd"src="img.2114.jpg"alt="" height="-700">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">Royal Canin Poodle Puppy 0.5kg - 1.5kg - Thức ăn cho chó con Royal Canin Poodle Puppy 1.5kg từ 2-10 tháng tuổi</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">172.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd"src="img.2276.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">Thức ăn cho chó trưởng thành KEOS vị bò và rau củ
+                                            </h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">150.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product no-margin">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.5456.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">Thức ăn cho chó hạt mềm vị ORIGI-7 Duck 2kg(bò,hồi,cừu,vịt)</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">400.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.4354.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">Hạt Nutrience Infusion Adult Small Breed 0.5kg (thịt gà-rau củ)</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">200.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.0909.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">Hạt Chó Nutrience Subzero Small breed Gói vàng (gà tây, cá hồi, cá trích, cá tuyết..)</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">700.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.7788.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">Hạt dầu cá hồi King's Pet by Bao Anh dành cho chó kén ăn/chó trưởng thành vị cá hồi đẹp da mượt lông</h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">300.000₫</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-product no-margin">
+                                        <div class="img-product">
+                                            <img class="img-prd" src="img.9898.jpg" alt="">
+                                        </div>
+                                        <div class="content-product">
+                                            <h3 class="content-product-h3">Dogsmile Thức ăn chó trưởng thành Bò/Gà 500gr
+                                            </h3>
+                                            <div class="content-product-deltals">
+                                                <div class="price">
+                                                    <span class="money">75.000đ</span>
+                                                </div>
+                                                <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
+                                            </div>
+                                        </div>
+                                    </li> <li class="main-product">
+                                    <div class="img-product">
+                                        <img class="img-prd" src="img.5657.jpg" alt="">
+                                    </div>
+                                    <div class="content-product">
+                                        <h3 class="content-product-h3">Pate cho mèo</h3>
+                                        <div class="content-product-deltals">
+                                            <div class="price">
+                                                <span class="money">50.000₫</span>
                                             </div>
                                             <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
                                         </div>
@@ -637,6 +933,8 @@ h3{
                 </section>
                 
                 </div>
+        
+        
         </div>
 
         </body>

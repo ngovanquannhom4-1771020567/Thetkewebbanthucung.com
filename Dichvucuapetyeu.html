@@ -6,15 +6,15 @@
      background:white;
     box-sizing: border-box;
     width: 95%; 
-   max-height: 5000px ;
+   max-height: 50000px ;
     padding: 10px; 
     border: 1px solid black;
     margin-left:35px;  
     
             }
          .logo img{
-            margin-left: -100px;
-    border-top-left-radius: 15px;
+            margin-left: 30px;
+                border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-top: -50px;
         width: 200px;
@@ -25,10 +25,10 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width:100%;
     height:30px;
-    padding-top: 70px;
+    padding-top: 50px;
   margin:-150px;
-  margin-top: -110px;
-  margin-left: 80px;
+  margin-top: -120px;
+  margin-left: 150px;
   border-top-left-radius: 5px;
 
 } 
@@ -153,45 +153,18 @@ h1{
 
 }
 
-.footer-item .img-footer {
-  align-items: center;
-  display: flex;
-  
-}
 
-.footer-item .img-footer img {
-  width: 100%;
-  
-}
-
-.footer-item .social-footer {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.footer-item .social-footer li a {
-  color:pink;
-  font-size: 2rem;
-
-}
-
-.footer-item .social-footer li:last-child {
-  margin-left: .5rem;
-}
 footer{
-  padding-left: 100px;
-  width: 100%;
-}
-.footers{ 
-  
-    border:2px dotted pink;
+    height: 170px;
+    margin-left: 200px;}
+
+
+.footers{
+    border:3px dotted pink;
+    
     margin-bottom: -40px;
     background: rgb(247, 204, 211);
     margin-left: -200px;
-    height: 50%;
-    width: 100%;
 }
 .footers ul{
     margin-top: -30px;
@@ -200,10 +173,10 @@ footer{
     font-family:'Times New Roman', Times, serif;
      padding-top: 70px;
     list-style: none;
-    margin-left: 250px;
+    margin-left: 30px;
 }   
 .footer2 ul {
-    margin-top: -100px;
+    margin-top: -120px;
     font-style: italic;
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
@@ -211,22 +184,27 @@ footer{
     list-style: none;
     margin-left: 550px;
 }
+
 .tt3{
     margin-top:50px;
 }
+
 #menu2{
     width:60%;
     height:50%;
+
 }
 #menu2 ul{
     display:flex;
 }
 #menu2 ul li:hover>a{
-    background: red;
+    background:white;
     opacity: .7;
     color: yellow;
+    padding-left: 1000px;
 }
 #menu2 li ul{
+
     display: none;
     min-width: 350px;
     position: absolute;
@@ -234,8 +212,8 @@ footer{
 #menu2 li>ul li{
     width: 60%;
     border: none;
-    border-bottom: 2px solid #ccc;
-    background: rgb(245, 193, 202);
+    border-bottom: 1px solid rgb(165, 164, 164);
+    background:rgb(252, 200, 209);
     display: block;
 }
 #menu2 ul li{
@@ -251,6 +229,7 @@ footer{
 }
 #menu2 li>ul li:last-child a{
     border-bottom-left-radius: 5px;
+    
     border-bottom-right-radius: 5px;
 }
 #menu2 li>ul li:first-child a{
@@ -258,6 +237,7 @@ footer{
     border-top-left-radius: 0px;
 }
 #menu2 ul li a{
+    
     display: block;
     padding: 0 25px;
     line-height: 50px;
@@ -275,8 +255,8 @@ footer{
     margin-left: 352px;
     margin-top: -50px;
 }
-header, menu{
-    margin: 5px 10%;
+.hidden image {
+    text-align: center;
 }
         </style>
       <title> Danh mục đơn hàng</title>
@@ -297,22 +277,22 @@ header, menu{
                 <div class="logo">
                     <image src="img.221.jpg" alt="">
                         <div id="menu">
-                          <div id="menu">
                             <ul id="menu2">
                        <i><li><a class="imtems" href="#">Trang chủ</a></i>
     
                             
                                 <i><li><a href="http://127.0.0.1:5500/Gioithieushop.html">Giới Thiệu</a></i> 
-                           <i> <li>
-                            <a href="http://127.0.0.1:5500/phukien.html">Sản Phẩm</a></i>
-                               <ul>
-                                <li><a href="#" title="Chó và Mèo"> Thú Cưng</a></li>
-                                <li><a href="#" title="Quần áo">Quần áo</a></li>
-                                <li><a href="#" title="Homd">Nhà cho pet</a></li>
-                                <li><a href="#" title="Food">Food</a></li>
-                               </ul>
-                            
-                        </li>
+                           <i> 
+                            <li>
+                                <a href="http://127.0.0.1:5500/phukien.html">Sản Phẩm</a></i>
+                                   <ul id="menu2">
+                                    <li><a href="#" title="Chó và Mèo">Chó Và Mèo</a></li>
+                                    <li><a href="#" title="Phụ Kiện">Phụ Kiện</a></li>
+                                    <li><a href="#" title="Đồ Ăn">Đồ ăn</a></li>
+                                   </ul>
+                                
+                            </li>
+        
     
                             <i><li><a href="http://127.0.0.1:5500/Dichvucuapetyeu.html">Dịch Vụ</a></i>
                             <ul id="menu2"> 
@@ -320,12 +300,23 @@ header, menu{
                                 <li><a href="#" title="Massage">Massage</a></li>
                                 <li><a href="#" title="Tắm">Tắm</a></li>
                             </ul></li>
-                            
-                            <i><li><a href="#">Liên hệ</a></i></li>
-                            <i><li><a href="#">Giỏ hàng</a></i></li>
-                                <i><li><a href="">Đăng nhập</a></i></li>
-                
-                        </ul>
+                             
+                        <i><li><a href="#">Liên hệ</a>
+                            <ul id="menu2"> 
+                                <li><a href="https://zalo.me/0971587205" title="Zalo">0971587205</li>
+                                   
+                                </ul>
+                        </li></i>
+                        <i><li><a href="#">Giỏ hàng</a>
+                            <ul id="menu2"> 
+                                <li><a href="#" title="Xem chi tiet don hang">Xem chi tiết đơn hàng</a></li>
+                                    <li><a href="#" title="Them moi gio hang">Thêm mớI giỏ hàng</a></li>
+                                
+                                </ul>
+                        </li></i>
+                            <i><li><a href="http://127.0.0.1:5500/%C4%91angnhappetyeu.html">Đăng nhập</a></i></li>
+            
+                    </ul>
                     </div>
                     </header>
                     <div class="header1">
@@ -352,7 +343,7 @@ header, menu{
                             Chúng tôi không ngừng nâng cao phát triển trình độ kỹ năng của nhân sự để phục vụ thú cưng đem đến kết quả tốt nhất.<br>
                          
                          <div class="hidden">
-                         <img src="" alt="" width="800"height="400" style="text-align: center;">
+                         <img src="img.098.png" alt="" width="400"height="400" style="text-align: center; border-top-left-radius: 15px;border-top-right-radius: 15px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
                         </div>
                         <h1>VÌ SAO NÊN SPA CHO CHÓ MÈO ĐỊNH KỲ VÀ THƯỜNG XUYÊN?</h1>
                     
